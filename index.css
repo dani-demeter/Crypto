@@ -1,0 +1,155 @@
+:root {
+   --white:#F5F0F6;
+   --black:#1C1D20;
+   --gray:#AFAFAF;
+   --blue:#2AB7CA;
+   --dblue:#00487C;
+   --rasp:#9E0031;
+   --orange:#FAA916;
+   --purp:#662AAF;
+   --mar:#330036;
+   --gold: #FFC700;
+}
+#code-tab{
+   background-color: var(--white);
+   border-radius: 3px;
+   outline: none;
+   border: 2px solid var(--gold);
+}
+#encrypt-tab{
+   background-color: var(--white);
+   border-radius: 3px;
+   outline: none;
+   border: 2px solid var(--rasp);
+}#decrypt-tab{
+   background-color: var(--white);
+   border-radius: 3px;
+   outline: none;
+   border: 2px solid var(--blue);
+}
+
+.ui-button{
+   background-color: var(--white);
+   border-radius: 3px;
+   border: 2px solid var(--gold);
+}
+
+.ui-button:hover{
+   border: 2px solid var(--blue);
+}
+
+.ui-button-crypt{
+   background-color: var(--white);
+   border-radius: 3px;
+   border: 2px solid var(--rasp);
+}
+
+.ui-button-crypt:hover{
+   border: 2px solid var(--gold);
+}
+
+.ui-button-decrypt{
+   background-color: var(--white);
+   border-radius: 3px;
+   border: 2px solid var(--blue);
+}
+
+.ui-button-decrypt:hover{
+   border: 2px solid var(--rasp);
+}
+
+.text-input{
+   background-color: var(--white);
+   border-radius: 3px;
+   overflow:scroll;
+   resize: none;
+   border: 2px solid var(--gold);
+}
+
+.text-input:hover{
+   border: 2px solid var(--blue);
+}
+
+.text-input-encrypt{
+   background-color: var(--white);
+   border-radius: 3px;
+   overflow:scroll;
+   resize: none;
+   border: 2px solid var(--rasp);
+}
+
+.text-input-encrypt:hover{
+   border: 2px solid var(--gold);
+}
+
+.text-input-decrypt{
+   background-color: var(--white);
+   border-radius: 3px;
+   overflow:scroll;
+   resize: none;
+   border: 2px solid var(--blue);
+}
+
+.text-input-decrypt:hover{
+   border: 2px solid var(--rasp);
+}
+
+.output-label{
+   background-color: var(--white);
+   color: var(--black);
+   border-radius: 3px;
+   outline: none;
+   border: 2px solid var(--gold);
+}
+
+.output{
+   background-color: var(--white);
+   border-radius: 3px;
+   outline: none;
+   cursor: default;
+   overflow:scroll;
+   resize: none;
+   border: 2px solid var(--gold);
+}
+
+.output-encrypt{
+   background-color: var(--white);
+   border-radius: 3px;
+   outline: none;
+   cursor: default;
+   overflow:scroll;
+   resize: none;
+   border: 2px solid var(--rasp);
+}
+
+.output-decrypt{
+   background-color: var(--white);
+   border-radius: 3px;
+   outline: none;
+   cursor: default;
+   overflow:scroll;
+   resize: none;
+   border: 2px solid var(--blue);
+}
+
+.bitarr-box{
+   /* background-color: var(--white); */
+   color: var(--white);
+   /* border: 2px solid var(--gold); */
+}
+
+.key-label{
+   background-color: var(--white);
+   color: var(--black);
+   border-radius: 3px;
+   outline: none;
+   border: 2px solid var(--rasp);
+}
+
+.key-label-de{
+   background-color: var(--white);
+   color: var(--black);
+   border-radius: 3px;
+   outline: none;
+   border: 2px solid var(--blue);
+}
